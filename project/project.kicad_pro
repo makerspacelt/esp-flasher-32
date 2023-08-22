@@ -55,9 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|177467499|107892501|06789aed-afbd-4475-b7c3-f6b0fe1b4f32|ef31a626-4de3-486b-b3dd-624d5a660804"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -65,7 +63,7 @@
         "annular_width": "ignore",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -125,6 +123,7 @@
         0.3,
         0.4,
         0.5,
+        0.7,
         1.0,
         1.5,
         2.0
@@ -398,15 +397,13 @@
     "meta": {
       "version": 2
     },
-    "net_colors": {
-      "TX": "rgb(255, 0, 0)"
-    }
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
