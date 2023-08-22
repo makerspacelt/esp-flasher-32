@@ -269,11 +269,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIxLjUiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiZGV2MiIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICIyIiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICIwIiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiMCIsICJQYWRkaW5nVG9wQ3RybCI6ICIyIiwgIldpZHRoQ3RybCI6ICIifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-64E4955A" (at 0 -4.085828) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 5c7dc03b-7080-46dd-b09a-8f5aaa4d4f07)
     )
     (fp_text value "G***" (at 0 4.085828) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp d15e5825-ce99-44f7-b735-2d0541504dd5)
     )
     (fp_poly (pts
@@ -789,11 +789,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIxLjUiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiRVNQLTMyIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjIiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjAiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICIiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMiIsICJXaWR0aEN0cmwiOiAiIn0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-64E49519" (at 0 4.015581 270) (layer "B.SilkS") hide
-      (effects (font (size 0 0)) (justify mirror))
+      (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp 611f2052-2a8e-4659-b1bd-d2af9d51cb56)
     )
     (fp_text value "G***" (at 0 -4.015581 270) (layer "B.SilkS") hide
-      (effects (font (size 0 0)) (justify mirror))
+      (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp 7b203d02-1fda-4a56-aec1-a50620e3b2e5)
     )
     (fp_poly (pts
@@ -1846,6 +1846,9 @@
   (gr_text "Vcc\nRST\n15\nTX" (at 167.7 117.7925) (layer "F.SilkS") (tstamp 1813c44c-20b6-4757-9dc0-a7fdb29bc7bb)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right))
   )
+  (gr_text "JLCJLCJLCJLC" (at 172.55 117.6925 90) (layer "F.SilkS") (tstamp becca73d-d650-41ef-b50e-5b967c6ccd37)
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
   (gr_text "RX\n0\n2\nGND" (at 177.3 117.5) (layer "F.SilkS") (tstamp e091574c-b189-4640-b4ca-0e9c0164682a)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
   )
@@ -1870,7 +1873,7 @@
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 7df4f5ac-ee69-4f4c-a559-666510fe5862)
     (pts (xy 166.5 111.6925) (xy 166.5 123.6925))
     (height 6.899999)
-    (gr_text "12.0 mm" (at 158.450001 117.6925 90) (layer "Dwgs.User") (tstamp 279868cf-7260-46c1-8fad-1681ec04744a)
+    (gr_text "12.0 mm" (at 158.450001 117.6925 90) (layer "Dwgs.User") (tstamp 7df4f5ac-ee69-4f4c-a559-666510fe5862)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 2) (units_format 1) (precision 1))
@@ -1879,7 +1882,7 @@
   (dimension (type aligned) (layer "Dwgs.User") (tstamp c82af182-a353-4173-9530-77b078d5baa7)
     (pts (xy 166.5 123.6925) (xy 178.5 123.6925))
     (height 8)
-    (gr_text "12.0 mm" (at 172.5 130.5425) (layer "Dwgs.User") (tstamp 4403cdd0-8283-43d3-89b4-40ccbdacb790)
+    (gr_text "12.0 mm" (at 172.5 130.5425) (layer "Dwgs.User") (tstamp c82af182-a353-4173-9530-77b078d5baa7)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 2) (units_format 1) (precision 1))
